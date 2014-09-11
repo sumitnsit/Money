@@ -1,0 +1,51 @@
+@import 'colors';
+ * {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    height: 100%;
+}
+.k_nav_bar {
+    height: 100px;
+    background-color: $light-grey;
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.k_container {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    background: #fff;
+    margin-top: -101px;
+    margin-bottom: -41px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+.k_footer {
+    height: 40px;
+    background-color: $light-grey;
+}
+.k_side_bar {
+    display: table-cell;
+    width: 270px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: $medium-grey;
+}
+.k_content {
+    display: table-cell;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: $white;
+}
+.k_form_bar {
+    display: table-cell;
+    width: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: $medium-grey;
+}
